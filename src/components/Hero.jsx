@@ -138,7 +138,7 @@ function Hero() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1KNP--xuyAUhsUM0llQeQsp6i_OMLhebE/view?usp=sharing"
                 className="
                 border border-cyan-400
                 hover:bg-cyan-400
