@@ -13,7 +13,7 @@ const projects = [
       "Tailwind CSS",
     ],
 
-    image: "/pro1.png",
+    image: process.env.PUBLIC_URL + "/pro1.png",
 
     github: "https://github.com/suvithra18/Smart-Apartment-Management-System",
 
@@ -36,7 +36,7 @@ const projects = [
       "DRF",
     ],
 
-    image: "/pro2.png",
+    image: process.env.PUBLIC_URL + "/pro2.png",
 
     github: "https://github.com/suvithra18/AI-Smart-Kitchen-Management-System",
 
@@ -61,7 +61,7 @@ const projects = [
       "ReportLab",
     ],
 
-    image: "/pro3.png",
+   image: process.env.PUBLIC_URL + "/pro3.png",
 
     github: "https://github.com/suvithra18/CodeGenome-AI-Platform",
 
@@ -84,7 +84,7 @@ const projects = [
       "Excel",
     ],
 
-    image: "/pro4.png",
+   image: process.env.PUBLIC_URL + "/pro4.png",
 
     github: "https://github.com/suvithra18/Power-BI-EmoHealth_Analytics",
 
@@ -105,7 +105,7 @@ const projects = [
       "DAX",
     ],
 
-    image: "/pro5.png",
+   image: process.env.PUBLIC_URL + "/pro5.png",
 
     github: "https://github.com/suvithra18/Power-BI-Revenue-Leakage-Project",
 
@@ -126,7 +126,7 @@ const projects = [
       "What-If",
     ],
 
-    image: "/pro6.png",
+    image: process.env.PUBLIC_URL + "/pro6.png",
 
     github: "https://github.com/suvithra18/Power-BI-Process-Pulse",
 

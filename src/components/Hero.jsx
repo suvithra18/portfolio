@@ -202,7 +202,7 @@ function Hero() {
               >
 
                 <img
-                  src="/profile.png"
+                  src={process.env.PUBLIC_URL + "/profile.png"}
                   alt="Suvithra"
                   className="
                   w-full h-full
