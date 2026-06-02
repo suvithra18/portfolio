@@ -12,7 +12,7 @@ function Achievements() {
   return (
     <section
   id="achievements"
-  className="py-2 px-6 bg-[#020617]"
+  className="py-6 px-6 bg-[#020617]"
 >
   <div className="max-w-6xl mx-auto">
 

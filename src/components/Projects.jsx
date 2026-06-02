@@ -33,7 +33,7 @@ const projects = [
       "AI",
       "SQLite",
       "JWT",
-      "DRF",
+      "Django REST Framework",
     ],
 
     image: process.env.PUBLIC_URL + "/pro2.png",
@@ -146,7 +146,7 @@ function Projects() {
 
     <section
       id="projects"
-      className="py-6 px-3 lg:px-6 bg-slate-950 text-white"
+      className="py-30 px-6 lg:px-6 bg-slate-950 text-white"
     >
 
       <div className="max-w-6xl mx-auto">
@@ -161,39 +161,42 @@ function Projects() {
   Showcasing my work through real-time projects, practical implementations, and innovative solutions
 </p>
  {/* GRID */}
-        <div className="grid grid-cols-3 gap-6">
+       <div className="
+      grid
+      grid-cols-1
+      md:grid-cols-2
+      lg:grid-cols-3
+      gap-6
+    ">
 
-          {projects.map((project, index) => (
+      {projects.map((project, index) => (
 
-            <div
-  className="
-  relative
-  rounded-3xl
-  overflow-hidden
-  border border-cyan-400/30
-  bg-[#020617]
-
-  shadow-[0_0_15px_rgba(34,211,238,0.15)]
-
-  hover:-translate-y-2
-  hover:border-cyan-400
-  hover:shadow-[0_0_30px_rgba(34,211,238,0.35)]
-
-  transition-all duration-300
-
-  flex flex-col
-  h-full
-"
- 
->
+        <div
+          key={index}
+          className="
+            relative
+            rounded-3xl
+            overflow-hidden
+            border border-cyan-400/30
+            bg-[#020617]
+            shadow-[0_0_15px_rgba(34,211,238,0.15)]
+            hover:-translate-y-2
+            hover:border-cyan-400
+            hover:shadow-[0_0_30px_rgba(34,211,238,0.35)]
+            transition-all duration-300
+            flex flex-col
+            h-auto
+          "
+        >
 
               {/* IMAGE */}
              <img
   src={project.image}
   alt={project.title}
  className="
-  h-52
+  h-40
   w-full
+  md:h-52
   object-fit
   object-top
   rounded-t-3xl

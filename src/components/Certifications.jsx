@@ -44,7 +44,7 @@ function Certifications() {
 
     <section
   id="certifications"
-  className="py-16 px-6 bg-slate-950 text-white"
+  className="py-6 px-6 bg-slate-950 text-white"
 >
   <div className="max-w-6xl mx-auto">
 

@@ -27,7 +27,7 @@ function Education() {
   return (
     <section
       id="education"
-      className="h-screen flex items-center bg-[#020617] px-6 pt-20"
+      className="flex items-center bg-[#020617] px-4 pt-16 pb-8"
     >
 
       <div className="max-w-6xl mx-auto w-full">
